@@ -1,0 +1,110 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 629800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Etsy title verification using search feature",
+        "description": "",
+        "id": "etsy-search-feature;etsy-title-verification-using-search-feature",
+        "after": [
+          {
+            "result": {
+              "duration": 636853900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9633200500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Etsy Homepage",
+            "match": {
+              "location": "Etsy_Steps.user_is_on_Etsy_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 161818000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User types \"Wooden Spoon\" in the search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Wooden Spoon\"",
+                  "offset": 11
+                }
+              ],
+              "location": "Etsy_Steps.user_types_in_the_search_box(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1687428900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks search button",
+            "match": {
+              "location": "Etsy_Steps.user_clicks_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 204523500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User sees \"Wooden Spoon\" is in the title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Wooden Spoon\"",
+                  "offset": 10
+                }
+              ],
+              "location": "Etsy_Steps.user_sees_is_in_the_title(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@etsy"
+          }
+        ]
+      }
+    ],
+    "name": "Etsy search feature",
+    "description": "",
+    "id": "etsy-search-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/etsySearch.feature",
+    "tags": []
+  }
+]

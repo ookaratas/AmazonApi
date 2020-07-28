@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="11.092636">
+    <testcase classname="Etsy search feature" name="Etsy title verification using search feature" time="11.092636">
+        <system-out><![CDATA[Given User is on Etsy Homepage..............................................passed
+When User types "Wooden Spoon" in the search box............................passed
+And User clicks search button...............................................passed
+Then User sees "Wooden Spoon" is in the title...............................passed
+]]></system-out>
+    </testcase>
+</testsuite>
