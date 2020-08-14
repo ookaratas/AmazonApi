@@ -24,7 +24,6 @@ public class Etsy_Steps {
     public void user_is_on_Etsy_Homepage() {
       Driver.getDriver().get("https://etsy.com");
 
-
     }
 
     @When("User types {string} in the search box")
